@@ -1,0 +1,67 @@
+.banner {
+    width: 100%;
+    position: relative;
+    .bannerImg {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+}
+.bannerBtn {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 38px;
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    background-color: #ffa15f;
+    color: #fff;
+    border: none;
+}
+
+.genderWrapper {
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    
+    .wrapperItem {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .wrapperCategory {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 22px;
+        font-weight: 500;
+        bottom: 40px;
+        right: 118px;
+        .gender {
+            position: absolute;
+            font-family: Dominie;
+            color: white;
+            font-size: 22px;
+            font-weight: 500;
+            bottom: 52px;
+            right: 28px;
+        }
+        .shopNow {
+            position: absolute;
+            font-weight: 500;
+            font-size: 14px;
+            padding: 10px 38px;
+            position: absolute;
+            bottom: 40px;
+            right: 60px;
+            background-color: #ffa15f;
+            color: #fff;
+            border: none;
+            bottom: -2px;
+            right: -19px;
+        }
+    }
+}

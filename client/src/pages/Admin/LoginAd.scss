@@ -1,0 +1,14 @@
+.landing {
+    position: relative;
+    height: 100vh;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.header_admin {
+    position: absolute;
+    z-index: 3;
+    margin-top: 30px;
+    margin-left: 40px;
+}

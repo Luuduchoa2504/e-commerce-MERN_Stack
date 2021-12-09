@@ -1,0 +1,159 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+
+    .modalOverlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .modalBody {
+        margin: auto;
+        padding: 0 30px;
+        position: relative;
+
+        .wrapper {
+            background-color: #fff;
+            .formContent {
+                padding: 30px;
+                box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.03);
+                // background-color: white;
+                align-items: center;
+                .form {
+                    width: 100%;
+                    height: 100%;
+        
+                    .formHeader {
+                        width: 100%;
+                        height: 42px;
+                        display: block;
+                        // margin: auto;
+                        text-align: center;
+                        font-family: Montserrat;
+                        font-size: 32px;
+                        font-weight: 700;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.31;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #202124;
+        
+                    }
+        
+                    .formInputs {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 24px;
+                        
+                        .formLabel {
+                            height: 18px;
+                            width: fit-content;
+                            margin: 0 356px 8px 0;
+                            font-family: Montserrat;
+                            font-size: 12px;
+                            font-weight: bold;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.5;
+                            letter-spacing: normal;
+                            text-transform: uppercase;
+                            color: #202124;
+                        }
+        
+                        .formInput {
+                            // width: 100%;
+                            height: 46px;
+                            margin: 8px 0 0;
+                            padding: 12px 24px; 
+                            border: none;
+                            background-color: #f6f6f6;
+                            &::placeholder {
+                                color: #4d4d4d;
+                                opacity: 0.3;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: 1.57;
+                                letter-spacing: normal;
+        
+                            }
+                        }
+                        
+                    }
+        
+                    .policy {
+                        margin-top: 41px;
+        
+                       .policy-container {
+                        width: 284px;
+                        height: 44px;
+                        margin: auto;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.57;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #202124;
+                      
+                        .policyLink {
+                            font-weight: bold;
+                            color: #ff7413;
+                            padding: 0 2px
+                            }
+                       }
+                    }
+        
+                    .form-input-btn {
+                        width: 100%;
+                        height: 39px;
+                        margin-top: 20px;
+                        box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.03);
+                        background-color: #d4d3d3;
+                        border: none;
+                        color: white;
+                        font-family: Montserrat;
+                        font-weight: normal;
+                        &:hover {
+                            background-color: #ff7413;
+                        }
+                    }
+        
+                }
+            }
+    
+            .form-login {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 50px;
+                margin-top: 7px;
+                border-top: solid 1px #ededed;
+                font-family: Montserrat;
+                padding: 10px 0;
+                .login-letter {
+                    display: inlin;
+                }
+
+                .login-link {
+                    margin-left: 4px;
+                    color: #ff7413;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
