@@ -27,19 +27,21 @@ const productSchema = new Schema ({
         required:true
     },
     category: {
-        type: String,
+        type: Number,
         required:true
     },
     brand: {
-        type: String,
+        type: Number,
         required:true
     },
     colors: {
-        type: String,
+        type: Array,
+        default: [],
         required:true
     }, 
     size: {
-        type: String,
+        type: Array,
+        default: [S, M, L],
         required: true
     }
 }, {
