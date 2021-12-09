@@ -10,5 +10,5 @@ const SizeSchema = new Schema ({
         type: Array,
         default:[S, M, L],
         required: true
-    },
+    }
 })

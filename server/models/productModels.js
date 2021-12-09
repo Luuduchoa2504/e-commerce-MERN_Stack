@@ -41,7 +41,7 @@ const productSchema = new Schema ({
     }, 
     size: {
         type: Array,
-        default: [S, M, L],
+        default: [],
         required: true
     }
 }, {
